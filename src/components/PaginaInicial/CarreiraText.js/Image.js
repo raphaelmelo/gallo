@@ -4,10 +4,10 @@ const Container = styled.section`
   padding:0 10vw;
 `
 
-export default function Nav() {
+export default function Imagem() {
     return (
         <Container>
-            <h1>Nav</h1>
+            <h1>Home</h1>
         </Container>
     );
 }

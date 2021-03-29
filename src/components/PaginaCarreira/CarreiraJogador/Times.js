@@ -4,10 +4,10 @@ const Container = styled.section`
   padding:0 10vw;
 `
 
-export default function Nav() {
+export default function Times() {
     return (
         <Container>
-            <h1>Nav</h1>
+            <h1>Times</h1>
         </Container>
     );
 }
