@@ -1,15 +1,12 @@
 import React from 'react';
-import styled from 'styled-components'
-import Header from '../components/Header/Header.js'
+import HomeComponent from '../components/PaginaInicial/Home/Home.js'
 
-const Title = styled.h1`
-  font-size: 50px;
-`
 
-export default function Home() {
+
+export default function index() {
   return (
     <React.Fragment>
-      <Header />
+      <HomeComponent />
     </React.Fragment>
   );
 }
