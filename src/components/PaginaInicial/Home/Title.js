@@ -12,28 +12,19 @@ const WrapperText = styled.article`
     width:550px;
     text-align:end;
 
-    h1 {
-        font-size:152px;
-         font-family: 'Luckiest Guy', cursive;
-        color: #ffffff;
-        text-transform:uppercase;
-        padding:0;
-        margin:0;
-        line-height:90%;
-    }
-    h2 {
-        font-size:40px;
-        font-weight:200;
-        padding:0;
-        margin:0;
-        text-transform:uppercase;
-        color: #ffffff99; 
-    }
-    h3 {
-        font-size:26px;
-        font-weight:400;
-        color: #ffffff99;
-        text-transform:uppercase;
+    h1 { 
+        font-family: Qwigley;
+        font-size: 300px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+        line-height:130px;
+        } 
+    h3 { 
+        color: #F9F9F9;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+ 
     }
     
 `
@@ -42,7 +33,6 @@ export default function Title() {
     return (
         <Container>
             <WrapperText>
-                <h2>Alexandre</h2>
                 <h1>Gallo</h1>
                 <h3>Treinador e ex-jogador de futebol</h3>
             </WrapperText>

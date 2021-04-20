@@ -132,10 +132,14 @@ table {
 }
 
 h1, h2,h3 {
-  font-family: 'Roboto Condensed', sans-serif;}
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #FFFFFF;
+}
 
 p, span, a {
     font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+
 }
 
 
