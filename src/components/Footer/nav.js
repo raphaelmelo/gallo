@@ -4,6 +4,9 @@ const Container = styled.section`
   padding:0 10vw;
 `
 
+//Styled Components
+
+
 export default function Nav() {
     return (
         <Container>

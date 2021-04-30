@@ -1,3 +1,7 @@
+import Header from '../../Header/Header'
+import Title from './Title'
+import Imagem from './imagem'
+import Informacoes from './Informacoes'
 import styled from 'styled-components'
 
 const Container = styled.section`
@@ -7,7 +11,9 @@ const Container = styled.section`
 export default function CarreiraHome() {
     return (
         <Container>
-            <h1>CarreiraHome</h1>
+            <Title/>
+            <Imagem />
+            <Informacoes/>
         </Container>
     );
 }

@@ -13,7 +13,7 @@ export default function index() {
       <Historia />
       <Carreira />
       <Palestra />
-      <Frase />
+
     </React.Fragment>
   );
 }
