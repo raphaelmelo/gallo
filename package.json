@@ -13,11 +13,10 @@
     "react-dom": "^16.8.0",
     "react-is": "^16.8.0",
     "react-reveal": "1.2.2",
-    "styled-components":  "latest"
+    "styled-components": "latest"
   },
   "devDependencies": {
-      "babel-plugin-styled-components": "latest"
-
+    "babel-plugin-styled-components": "latest"
   },
   "license": "MIT"
 }
