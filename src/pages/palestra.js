@@ -2,14 +2,16 @@ import React from 'react';
 import styled from 'styled-components'
 import Header from '../components/Header/Header.js'
 
-const Title = styled.h1`
+const Container = styled.section`
   font-size: 50px;
+  background:blue;
+  width:100%;
+  min-height:100vh;
 `
-
 export default function Palestra() {
     return (
-        <React.Fragment>
+        <Container>
             <Header />
-        </React.Fragment>
+        </Container>
     );
 }

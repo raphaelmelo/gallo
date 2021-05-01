@@ -2,14 +2,17 @@ import React from 'react';
 import styled from 'styled-components'
 import Header from '../components/Header/Header.js'
 
-const Title = styled.h1`
+const Container = styled.section`
   font-size: 50px;
+  background:orange;
+  width:100%;
+  min-height:100vh;
 `
 
 export default function Contato() {
   return (
-    <React.Fragment>
+    <Container>
       <Header />
-    </React.Fragment>
+    </Container>
   );
 }

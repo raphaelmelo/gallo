@@ -10,7 +10,15 @@ const Container = styled.section`
 export default function Footer() {
   return (
     <Container>
-      <h1>Footer</h1>
+      <div>
+
+      </div>
+      <nav>
+
+      </nav>
+      <footer>
+
+      </footer>
     </Container>
   );
 }

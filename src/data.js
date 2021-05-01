@@ -17,6 +17,7 @@ export const carreiraData = [
         time: "Santos",
         vitoria: 25,
         Derrotas: 310,
+        titulos: ["titulo1", "titulo2"],
         Empates: 20,
         Titulos: 2,
         Ano: 2002,

@@ -2,18 +2,18 @@ import React from 'react';
 import styled from 'styled-components'
 import Header from '../components/Header/Header.js'
 
-const Title = styled.h1`
+const Container = styled.section`
   font-size: 50px;
   background:red;
   width:100%;
-  height:200px;
+  min-height:100vh;
 `
 
 export default function Carreira() {
   return (
-    <React.Fragment>
+    <Container>
       <Header />
-      <Title />
-    </React.Fragment>
+
+    </Container>
   );
 }
