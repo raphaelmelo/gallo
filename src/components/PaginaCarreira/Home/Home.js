@@ -1,19 +1,43 @@
 import Header from '../../Header/Header'
 import Title from './Title'
-import Imagem from './imagem'
-import Informacoes from './Informacoes'
 import styled from 'styled-components'
 
 const Container = styled.section`
-  padding:0 10vw;
+    height:100vh;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:row;
+    
+
 `
+
+const TextWrapper = styled.article`
+    width:40%;
+    height:100vh;
+`
+
+const ImageWrapper = styled.article`
+    background-image: url('https://res.cloudinary.com/gallo/image/upload/v1616960836/Foto_Capa_wbasoa.png');
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position: center center;
+     width:60%;
+    height:100vh;
+
+`
+
 
 export default function CarreiraHome() {
     return (
         <Container>
-            <Title/>
-            <Imagem />
-            <Informacoes/>
+            <TextWrapper>
+                <Title />
+            </TextWrapper>
+            <ImageWrapper>
+
+            </ImageWrapper>
         </Container>
     );
-}
+};
