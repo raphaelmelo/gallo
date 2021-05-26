@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components'
-import Header from '../components/Header/Header.js'
 import Home from '../components/PaginaCarreira/Home/Home'
 
 const Container = styled.section`
@@ -13,7 +12,6 @@ const Container = styled.section`
 export default function Carreira() {
   return (
     <Container>
-      <Header />
       <Home />
     </Container>
   );

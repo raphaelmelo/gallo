@@ -6,10 +6,12 @@ import Palestra from '../components/PaginaInicial/Palestra/Palestra.js'
 import Frase from '../components/PaginaInicial/Frase/Frase.js'
 import Footer from '../components/Footer/Footer.js'
 
+import Header from '../components/Header/index'
 
 export default function index() {
   return (
     <React.Fragment>
+      <Header />
       <Home />
       <Historia />
       <Carreira />

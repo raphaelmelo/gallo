@@ -1,4 +1,3 @@
-import Header from '../../Header/Header'
 import Title from './Title'
 import styled from 'styled-components'
 
@@ -9,7 +8,6 @@ const Container = styled.section`
     align-items:center;
     justify-content:center;
     flex-direction:row;
-    
 
 `
 
@@ -31,6 +29,7 @@ const ImageWrapper = styled.article`
 
 export default function CarreiraHome() {
     return (
+
         <Container>
             <TextWrapper>
                 <Title />

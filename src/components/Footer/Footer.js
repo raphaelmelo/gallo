@@ -17,8 +17,9 @@ const SocialLogos = styled.div`
 const Images = styled.img`
   margin-top: 5vh;
   margin-bottom: 5vh;
-  height: 5vh;
-  width: 2.5vw;
+  width: 3vw;
+  min-width: 30px;
+  max-width: 60px;
   padding: 2px;
   `
 const NavWrapper = styled.section`

@@ -1,23 +1,59 @@
+import Texto from './Texto'
 import styled from 'styled-components'
-import Texto from './texto.js'
 
 const Container = styled.section`
-    height: 100vh;
+    min-height:100vh;
     width:100%;
-    background-image:url('/gallo-palestras.jpg'); 
-    background-size:100% 100%; 
-    background-repeat:no-repeat;
-    
-
     display:flex;
-    justify-content:flex-start;
     align-items:center;
+    justify-content:center;
+    flex-direction:row;
+    background:#020202;
+
+    @media only screen and (max-width: 600px) {
+        flex-direction: column-reverse;
+
+    }
 `
 
-export default function Palestra() {
+const TextWrapper = styled.article`
+    width:50%;
+    min-height:100vh;
+
+    
+    display:flex;
+    align-items:center;
+    justify-content:center;
+ 
+
+;
+`
+
+const ImageWrapper = styled.article`
+    background-image: url('https://res.cloudinary.com/gallo/image/upload/v1619996872/jonas-jacobsson-2xaF4TbjXT0-unsplash_xzaz6s.jpg');
+    
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:50%;
+    min-height:100vh;
+
+    @media only screen and (max-width: 700px) {
+        width:100%;
+        padding: 100px 0;
+    }
+
+`
+
+
+export default function CarreiraHome() {
     return (
         <Container>
-            <Texto />
+            <TextWrapper>
+                <Texto />
+            </TextWrapper>
+            <ImageWrapper>
+            </ImageWrapper>
         </Container>
     );
-}
+};

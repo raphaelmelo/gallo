@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-import Header from '../components/Header/Header.js'
+import Header from '../components/Header/index.js'
 
 const Container = styled.section`
   font-size: 50px;
@@ -12,7 +12,6 @@ const Container = styled.section`
 export default function Contato() {
   return (
     <Container>
-      <Header />
     </Container>
   );
 }

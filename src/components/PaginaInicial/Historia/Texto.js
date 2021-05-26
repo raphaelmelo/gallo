@@ -4,15 +4,14 @@ import styled from 'styled-components'
 
 const Wrapper = styled.article`
     height: 100%;
-    width: 50%;
+    width: 100%;
     display:flex;
     justify-content:center;
     align-items:center;
-    background:#020202;
 
     h2 {    
         font-family: 'Bebas Neue', cursive;
-        font-size: 110px;
+        font-size: clamp(18px, 20vw, 110px); 
         line-height: 132px; 
      }
 

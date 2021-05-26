@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Container = styled.section`
-    height: 100vh;
+    min-height:100vh;
     width:100%;
     background:#1C1B1B;
     display:flex;
@@ -14,7 +14,7 @@ const Container = styled.section`
         font-family: Qwigley;
         font-style: normal;
         font-weight: normal;
-        font-size: 500px;
+        font-size: clamp(18px, 50vw, 500px); 
         line-height: 600px;
         color: #464141;
         opacity: 0.6;

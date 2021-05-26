@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import Header from '../../Header/Header.js'
 import Title from './Title.js'
 
 const Container = styled.section`
@@ -16,7 +15,6 @@ const Container = styled.section`
 export default function Home() {
     return (
         <Container>
-            <Header />
             <Title />
         </Container>
     );
