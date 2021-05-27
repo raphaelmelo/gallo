@@ -6,7 +6,7 @@ const Container = styled.section`
   /* padding:0 10vw; */
   height:60vh;
   width:100%;
-  background-color:#111216;
+  background-color:#020202;
 `
 const SocialLogos = styled.div`
   display: flex;

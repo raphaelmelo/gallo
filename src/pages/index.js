@@ -5,7 +5,6 @@ import Carreira from '../components/PaginaInicial/Carreira/Carreira.js'
 import Palestra from '../components/PaginaInicial/Palestra/Palestra.js'
 import Frase from '../components/PaginaInicial/Frase/Frase.js'
 import Footer from '../components/Footer/Footer.js'
-
 import Header from '../components/Header/index'
 
 export default function index() {

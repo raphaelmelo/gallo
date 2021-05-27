@@ -20,7 +20,8 @@ const CardItem = styled.article`
     h2 {    
         font-family: 'Bebas Neue', cursive;
         font-size: clamp(18px, 20vw, 110px); 
-        line-height: 132px; 
+        line-height: 132px;
+        color:#6CB2DA; 
      }
 
      p {    

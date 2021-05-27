@@ -47,7 +47,7 @@ export default function Text() {
         <Container>
             <h2>Gallo</h2>
             <article>
-                <h3>“Quem corre atrás da bola não joga futebol.”</h3>
+                <h3>“O futebol é apaixonante porque é imprevisível.”</h3>
             </article>
         </Container>
     );
