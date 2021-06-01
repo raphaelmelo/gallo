@@ -145,7 +145,7 @@ export default function Palestra() {
         <div className="App">
             <Header></Header>
       <Container>
-        <img src="https://res.cloudinary.com/gallo/image/upload/v1620259175/Group_17_2_dwpp11.png" alt="" width="100%" height="100%" />
+        <img src="https://res.cloudinary.com/gallo/image/upload/v1622505127/Group_18_z5jkhz.png" alt="" width="100%" height="100%" />
                 <FraseWrapper>
           <BlocoTexto>
             <Frase><span>"</span><span>Futebol,</span>uma</Frase>

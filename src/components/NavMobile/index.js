@@ -59,19 +59,19 @@ export default function Header() {
 
                             <ListMenuStyled>
                                 <MenuLogo>
-                                     <Link href="https://www.facebook.com/direitinho.con">
+                                     <Link href="https://web.facebook.com/alexandretgallo/">
                                         <a target="blank">
-                                            <img src={"/social/fb-white.svg"} alt={"Facebook"} />
+                                            <img src={"https://res.cloudinary.com/gallo/image/upload/v1622518710/Vector_3_ojp5c8.png"} alt={"Facebook"} />
                                         </a>
                                     </Link>
-                                    <Link href="https://www.instagram.com/direitinhocarwash/">
+                                    <Link href="https://www.instagram.com/alexandregallooficial/">
                                         <a target="blank">
-                                            <img src={"/social/insta-white.svg"} alt={"Instagram"} />
+                                            <img src={"https://res.cloudinary.com/gallo/image/upload/v1622518726/Group_4_zaahsh.png"} alt={"Instagram"} />
                                         </a>
                                     </Link>
-                                    <Link href="https://twitter.com/DireitinhoC">
+                                    <Link href="https://twitter.com/agallooficial/">
                                         <a target="blank">
-                                            <img src={"/social/tw-white.svg"} alt={"Twitter"} />
+                                            <img src={"https://res.cloudinary.com/gallo/image/upload/v1622518726/Vector_4_d52bss.png"} alt={"Twitter"} />
                                         </a>
                                     </Link>
                                   </MenuLogo>
@@ -84,21 +84,21 @@ export default function Header() {
                                 </Link>
                                 <Divider />
                                 <Divider />
-                                <Link href="/cardapio">
+                                <Link href="/Historia">
                                     <ItemMenuStyled button>
-                                        <ListItemText primary={"Cardápio"} />
+                                        <ListItemText primary={"História"} />
                                     </ItemMenuStyled>
                                 </Link>
                                 <Divider />
 
-                                <Link href="/sobre">
+                                <Link href="/Carreira">
                                     <ItemMenuStyled button>
-                                        <ListItemText primary={"Sobre Nós"} />
+                                        <ListItemText primary={"Carreira"} />
                                     </ItemMenuStyled>
                                 </Link>
                                 <Divider />
 
-                                <Link href="/contato">
+                                <Link href="/Contato">
                                     <ItemMenuStyled button>
                                         <ListItemText primary={"Contato"} />
                                     </ItemMenuStyled>

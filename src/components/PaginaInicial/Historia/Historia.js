@@ -25,23 +25,33 @@ const TextWrapper = styled.article`
     display:flex;
     align-items:center;
     justify-content:center;
+
+    @media only screen and (max-width: 1025px) {
+        width:50%;
+        justify-content: flex-end;
+        margin-left: 2%;
+    }
  
 
 ;
 `
 const ImageWrapper = styled.article`
-    background-image: url('https://res.cloudinary.com/gallo/image/upload/v1619997575/Frame202_vuwa9a.png');
-    background-size:100%;
+    background-image: url('https://res.cloudinary.com/gallo/image/upload/v1622508857/Group_19_1_lnuxxy.png'); 
     background-repeat:no-repeat;
-    background-position: center center;
-     width:50%;
-    height:100vh;
+    background-position: 20% 6%; 
+    width:50%;
+    min-height:100vh;
+    
+    
+    
 
-    @media only screen and (max-width: 700px) {
+
+    @media only screen and (max-width: 1025px) {
         width:100%;
+        background-position:5% 2% ;
+        
+        
     }
-
-
 `
 
 

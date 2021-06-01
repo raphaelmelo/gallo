@@ -41,12 +41,10 @@ export default function Texto() {
         <Card>
             <h2>Carreira</h2>
             <p>
-                O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.
-                O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias
-                desde;
+            Seu primeiro trabalho depois de pendurar as chuteiras foi como estagiário de Carlos Alberto Parreira no Corinthians em 2002. Ele também foi assistente técnico de Dario Pereyra no Grêmio em 2003. O primeiro time treinado por Alexandre Gallo foi Villa Nova-MG em 2004. em 2004, Alexandre Gallo ocuparia por último o cargo de assistente técnico, trabalhando junto com Wanderley Luxemburgo em Santos, em 2004, tornando-se campeão brasileiro. 
                 </p>
             <Button variant="outlined" color="secondary">
-                Secondary
+                Continuar Lendo
                 </Button>
         </Card>
 

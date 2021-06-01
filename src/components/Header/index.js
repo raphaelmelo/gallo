@@ -38,7 +38,7 @@ const NavList = Styled.ul`
     line-height: 21px;
  
         
-@media (max-width: 600px) {
+@media (max-width: 769px) {
     display:none;
 }
 
@@ -56,7 +56,7 @@ const Tradution = Styled.article`
         width:24px;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 769px) {
     display:none;
 }
 
@@ -79,19 +79,19 @@ export default function Index() {
                                 <NavItem>Home</NavItem>
                             </a>
                         </Link>
-                        <Link href="/historia">
+                        <Link href="/Historia">
                             <a>
-                                <NavItem>Historia</NavItem>
+                                <NavItem>História</NavItem>
                             </a>
                         </Link>
-                        <Link href="/carreira">
+                        <Link href="/Carreira">
                             <a>
                                 <NavItem>Carreira</NavItem>
                             </a>
                         </Link>
-                        <Link href="/palestra">
+                        <Link href="/Contato">
                             <a>
-                                <NavItem>Palestras</NavItem>
+                                <NavItem>Contato</NavItem>
                             </a>
                         </Link>
                     </NavList>

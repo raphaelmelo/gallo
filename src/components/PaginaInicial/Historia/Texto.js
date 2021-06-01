@@ -68,10 +68,7 @@ export default function Text() {
 
                 <h2>história</h2>
                 <p>
-                    O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o
-                    texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto
-                    para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia
-                    electrónica, mantendo-se essencialmente inalterada.
+                Iniciou a carreira de jogador pelo Botafogo de Ribeirão Preto em 1986. Jogou por diversos clubes, como Vitória, Santos, Portuguesa, Guarani, São Paulo, Botafogo e Atlético Mineiro até encerrar a carreira de jogador no Corinthians, em 2001. Conquistou os Campeonatos Paulistas de 1998 pelo São Paulo, de 2001 pelo Corinthians e os Campeonatos Mineiros de 1999 e 2000 pelo Clube Atlético Mineiro. Além disso foi Vice Campeão Brasileiro por 3 vezes, em 1995 pelo Santos, em 1996 pela Portuguesa e em 1999 pelo Atlético Mineiro, também foi Vice Campeão da Copa do Brasil de 2001 pelo Corinthians.
             </p>
             </CardItem>
 

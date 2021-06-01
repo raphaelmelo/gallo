@@ -1,8 +1,13 @@
 import styled from 'styled-components'
 
+import Link from 'next/link'
+
 //Styled Components
 const Container = styled.section`
   padding:0 10vw;
+
+  
+        
 `
 const Menu = styled.ul`
     display: flex;
@@ -12,6 +17,12 @@ const Menu = styled.ul`
     gap: 20px;
     margin-top: 5vh;
     margin-bottom: 10vh;
+
+    @media only screen and (max-width: 425px) {
+        gap:15px;
+        width:100%;
+        flex-direction: column;
+    }
 `
 const MenuItens = styled.li`
     display: flex;
@@ -23,9 +34,8 @@ export default function Nav() {
         <Container>
             <Menu>
                 <MenuItens>HOME</MenuItens>
+                <MenuItens>HISTÓRIA</MenuItens>
                 <MenuItens>CARREIRA</MenuItens>
-                <MenuItens>ESTATÍSTICAS</MenuItens>
-                <MenuItens>PALESTRA</MenuItens>
                 <MenuItens>CONTATO</MenuItens>
             </Menu>
         </Container>

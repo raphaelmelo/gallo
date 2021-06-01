@@ -9,6 +9,14 @@ const Container = styled.section`
     background-repeat:no-repeat;
     background-position: 100%;
     background-origin: content-box;
+    
+    @media only screen and (max-width: 1025px) {
+        width:100%;
+        padding-bottom:2%;
+        background-position:20%;
+        margin:0px;
+        
+    }
  
   `
 

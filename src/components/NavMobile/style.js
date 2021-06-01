@@ -13,7 +13,7 @@ export const NavMobile = styled.div`
         color:#FE9A00;
      }
 
-@media (max-width: 600px) {
+@media (max-width: 769px) {
     display:flex;
 
 }

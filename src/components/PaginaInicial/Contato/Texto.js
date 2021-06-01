@@ -52,11 +52,9 @@ export default function Texto() {
         <Wrapper>
 
             <CardItem>
-                <h2>Palestras</h2>
+                <h2>Contato</h2>
                 <p>
-                    O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.
-                    O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias
-                    desde;
+                Adquiriu vasta experiência em relacionamentos pessoais e interpessoais com objetivos de Conquista em curto prazo, representando, muitas vezes, uma enorme torcida ou nação que busca Vitória a qualquer preço. Por isso, Alexandre Gallo é muito requisitado para ministrar Palestras.
                  </p>
                 <Button variant="outlined" color="secondary">
                     Continuar lendo

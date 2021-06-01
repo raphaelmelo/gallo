@@ -1,5 +1,7 @@
 import styled from 'styled-components'
-import Nav from '../Footer/Nav.js'
+import Nav from '../Footer/nav.js'
+
+import Link from 'next/link'
 
 //Styled Componentes
 const Container = styled.section`
@@ -7,6 +9,8 @@ const Container = styled.section`
   height:60vh;
   width:100%;
   background-color:#020202;
+        
+  
 `
 const SocialLogos = styled.div`
   display: flex;
@@ -41,9 +45,9 @@ export default function Footer() {
   return (
     <Container>
       <SocialLogos>
-        <Images src="https://res.cloudinary.com/gallo/image/upload/v1619910132/Vector_gu9bh0.png" />
-        <Images src="https://res.cloudinary.com/gallo/image/upload/v1619910189/Group_3_moyvev.png" />
-        <Images src="https://res.cloudinary.com/gallo/image/upload/v1619910151/Vector_2_p8eeyy.png" />
+      <Link href="https://web.facebook.com/alexandretgallo/"><a target="blank"><Images src="https://res.cloudinary.com/gallo/image/upload/v1622518710/Vector_3_ojp5c8.png" /></a></Link>
+      <Link href="https://www.instagram.com/alexandregallooficial/"><a target="blank"><Images src="https://res.cloudinary.com/gallo/image/upload/v1622518726/Group_4_zaahsh.png" /></a></Link>
+      <Link href="https://twitter.com/agallooficial/"><a target="blank"><Images src="https://res.cloudinary.com/gallo/image/upload/v1622518726/Vector_4_d52bss.png" /></a></Link>
       </SocialLogos>
       <hr />
       <NavWrapper>

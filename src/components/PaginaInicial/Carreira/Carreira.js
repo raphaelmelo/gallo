@@ -1,4 +1,4 @@
-import Texto from './Texto'
+import Texto from './texto'
 import styled from 'styled-components'
 
 const Container = styled.section`
@@ -20,30 +20,31 @@ const TextWrapper = styled.article`
     width:50%;
     min-height:100vh;
 
-    
     display:flex;
     align-items:center;
     justify-content:center;
  
-    @media only screen and (max-width: 600px) {
-        width:100%;
+    @media only screen and (max-width: 1025px) {
+        width:50%;
+        justify-content:flex-start;
+        margin-left:1.5%
+        
 
     }
 
 ;
 `
 
-
 const ImageWrapper = styled.article`
     background-image: url('https://res.cloudinary.com/gallo/image/upload/v1616962592/Carreira_bw_1_p8m2vk.png');
-     background-repeat:no-repeat;
+    background-repeat:no-repeat;
     background-position: cover;
     width:50%;
     min-height:100vh;
     
-    @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 1025px) {
         width:100%;
-        padding: 100px 0;
+        background-position:20% 5%;
     }
     
 `
