@@ -38,7 +38,7 @@ const TextWrapper = styled.article`
 const ImageWrapper = styled.article`
     background-image: url('https://res.cloudinary.com/gallo/image/upload/v1622508857/Group_19_1_lnuxxy.png'); 
     background-repeat:no-repeat;
-    background-position: 20% 6%; 
+    background-position: 20% 30%; 
     width:50%;
     min-height:100vh;
     

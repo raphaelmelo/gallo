@@ -98,7 +98,7 @@ export default function Header() {
                                 </Link>
                                 <Divider />
 
-                                <Link href="/Contato">
+                                <Link href="/contato">
                                     <ItemMenuStyled button>
                                         <ListItemText primary={"Contato"} />
                                     </ItemMenuStyled>

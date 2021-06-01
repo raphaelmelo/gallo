@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Container = styled.section`
     min-height:100vh;
     width:100%;
-    background:#1C1B1B;
+    background:#030303;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -16,7 +16,7 @@ const Container = styled.section`
         font-weight: normal;
         font-size: clamp(18px, 50vw, 500px); 
         line-height: 600px;
-        color: #464141;
+        color: rgba(108, 178, 218, 0.54);
         opacity: 0.6;
     }
 

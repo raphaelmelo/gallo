@@ -89,7 +89,7 @@ export default function Index() {
                                 <NavItem>Carreira</NavItem>
                             </a>
                         </Link>
-                        <Link href="/Contato">
+                        <Link href="/palestra">
                             <a>
                                 <NavItem>Contato</NavItem>
                             </a>

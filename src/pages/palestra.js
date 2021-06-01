@@ -9,14 +9,36 @@ const Container = styled.section`
   width:100%;
   min-height:100vh;
 `
+const ImagemTopoWrapper = styled.article`
+width: 100%;
+height: 100%;
+padding-top:25%;
+`
+
+const ImagemTopo = styled.img`
+width: 100%;
+height: 100%;
+
+`
+
+
+
 const ParceriosBG = styled.article`
-  background-color: #050505;
+  background-color: #040404;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  min-height:100vh;
+  min-height:70vh;
   width:100%;
+
+  @media only screen and (max-width: 1025px) {
+       min-height:30vh;
+       align-items: center;
+       
+
+        
+    }
 `
 const ParceirosWrapper= styled.article`
 display: flex;
@@ -24,6 +46,11 @@ display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   width:100%;
+
+  @media only screen and (max-width: 1025px) {
+       flex-wrap:wrap;
+        
+    }
   
 `
 
@@ -33,27 +60,50 @@ const ParceirosIMG = styled.img`
   align-items: center;
   flex-direction: row;
   width:10%;
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
+  padding-top:30px; 
+
+  @media only screen and (max-width: 1025px) {
+       width:30%;
+       justify-content:space-between;
+       margin:20px 0 0 20px;
+
+        
+    }
+
 `
 const FraseWrapper = styled.section`
   display: flex;
   width: 100%;
-  min-height:100vh;
+  min-height:80vh;
   flex-direction: column;
   justify-content: center;
   text-align:justify;
+
+  @media only screen and (max-width: 1025px) {
+       min-height:40vh;
+       align-items: center;
+       
+
+        
+    }
 `
 const BlocoTexto = styled.section`
   align-self:center;
 `
 const Frase = styled.p`
   font-family: Bebas Neue;
-  font-size: 20vh;
+  font-size: 16vh;
   margin: 0;
   padding: 0;
   width:100%;
   letter-spacing: 5px;
   color: #ffffff;
+
+  @media only screen and (max-width: 1025px) {
+       font-size: 5.5vh;
+        
+    }
 
   span {
     color: #6CB2DA;
@@ -69,6 +119,11 @@ const ParceirosTexto = styled.p`
   flex-direction: column;
   height:100%;
   width:100%;
+
+  @media only screen and (max-width: 1025px) {
+       font-size: 3vh;
+        padding-top:4%;
+    }
 `
 const AspasUPWrapper = styled.section`
   width: 100%;
@@ -80,6 +135,13 @@ const ContatoP = styled.p`
   display: flex;
   justify-content: center;
   font-size: 7vh;
+  padding-bottom: 5%;
+
+  @media only screen and (max-width: 767px) {
+       font-size: 3vh;
+        padding-bottom: 10%;
+        
+    }
 `
 const ContatoWrapper = styled.section`
   display: flex;
@@ -90,17 +152,23 @@ const ContatoWrapper = styled.section`
   align-items: center;
   justify-content:center;
   
-
+  @media only screen and (max-width: 767px) {
+       min-height:50vh;
+       padding-top: 10%;
+        
+    }
 `
 const ContatoForm = styled.form`
   display: flex;
   flex-direction: column;
   align-self: center;
-  width: 60vw;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 
   textarea {
+    width: 70%;
     display: flex;
-    width: 93.5%;
     padding: 15px;
     margin: 10px;
     border: 1px solid gray;
@@ -109,7 +177,6 @@ const ContatoForm = styled.form`
     align-self: center;
     background-color: transparent;
     font-family: Bebas Neue;
-    resize: vertical;
     color: white;
     font-size: 18px;
   }
@@ -130,25 +197,30 @@ const ContatoButton = styled.button`
 
 `
 const ContatoInput = styled.input`
+   width: 70%;
    padding: 15px;
    margin: 10px;
    border: 1px solid gray;
    border-radius: 4px;
-   box-sizing: border-box;
+   
    background-color: transparent;
    font-family: Bebas Neue;
    color: white;
    font-size: 18px;
+
+   
 `
 export default function Palestra() {
     return (
         <div className="App">
             <Header></Header>
       <Container>
-        <img src="https://res.cloudinary.com/gallo/image/upload/v1622505127/Group_18_z5jkhz.png" alt="" width="100%" height="100%" />
+      <ImagemTopoWrapper>
+        <ImagemTopo src="https://res.cloudinary.com/gallo/image/upload/v1622505127/Group_18_z5jkhz.png" alt="" width="100%" height="100%" />
+        </ImagemTopoWrapper>        
                 <FraseWrapper>
           <BlocoTexto>
-            <Frase><span>"</span><span>Futebol,</span>uma</Frase>
+            <Frase><span>"</span><span>Futebol</span>, uma</Frase>
             <Frase>razão de <span>viver.</span><span>"</span></Frase>
           </BlocoTexto>
         </FraseWrapper>
@@ -174,7 +246,7 @@ export default function Palestra() {
             <label />
             <ContatoInput type="text" placeholder="Assunto" />
             <label />
-            <textarea placeholder="Mensagem" rows="10" border-radius="4px" />
+            <textarea placeholder="Mensagem" rows="10"  />
             <ContatoButton type="submit">ENVIAR</ContatoButton>
           </ContatoForm>
         </ContatoWrapper>
