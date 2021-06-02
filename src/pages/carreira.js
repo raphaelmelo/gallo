@@ -14,12 +14,11 @@ const Container = styled.section`
 export default function Carreira() {
   return (
     <>
-    <Header/>
-    <Container>
-      <Home />
-    </Container>
-    <Footer/>
+      <Header />
+      <Container>
+        <Home />
+      </Container>
+      <Footer />
     </>
-
   );
 }

@@ -16,7 +16,6 @@ export default class MyDocument extends Document {
           enhanceApp: App => props =>
             styledComponentsSheet.collectStyles(materialSheets
               .collect(<App {...props} />)),
-
         })
 
       const initialProps = await Document.getInitialProps(ctx)

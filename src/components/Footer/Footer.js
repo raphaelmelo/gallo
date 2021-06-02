@@ -1,16 +1,13 @@
 import styled from 'styled-components'
 import Nav from '../Footer/nav.js'
-
 import Link from 'next/link'
 
 //Styled Componentes
 const Container = styled.section`
-  /* padding:0 10vw; */
+  margin-top: 10vh;
   height:60vh;
   width:100%;
   background-color:#020202;
-        
-  
 `
 const SocialLogos = styled.div`
   display: flex;
@@ -45,9 +42,9 @@ export default function Footer() {
   return (
     <Container>
       <SocialLogos>
-      <Link href="https://web.facebook.com/alexandretgallo/"><a target="blank"><Images src="https://res.cloudinary.com/gallo/image/upload/v1622518710/Vector_3_ojp5c8.png" /></a></Link>
-      <Link href="https://www.instagram.com/alexandregallooficial/"><a target="blank"><Images src="https://res.cloudinary.com/gallo/image/upload/v1622518726/Group_4_zaahsh.png" /></a></Link>
-      <Link href="https://twitter.com/agallooficial/"><a target="blank"><Images src="https://res.cloudinary.com/gallo/image/upload/v1622518726/Vector_4_d52bss.png" /></a></Link>
+        <Link href="https://web.facebook.com/alexandretgallo/"><a target="blank"><Images src="https://res.cloudinary.com/gallo/image/upload/v1622518710/Vector_3_ojp5c8.png" /></a></Link>
+        <Link href="https://www.instagram.com/alexandregallooficial/"><a target="blank"><Images src="https://res.cloudinary.com/gallo/image/upload/v1622518726/Group_4_zaahsh.png" /></a></Link>
+        <Link href="https://twitter.com/agallooficial/"><a target="blank"><Images src="https://res.cloudinary.com/gallo/image/upload/v1622518726/Vector_4_d52bss.png" /></a></Link>
       </SocialLogos>
       <hr />
       <NavWrapper>
