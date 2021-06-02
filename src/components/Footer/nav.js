@@ -33,10 +33,15 @@ export default function Nav() {
     return (
         <Container>
             <Menu>
-                <MenuItens>HOME</MenuItens>
-                <MenuItens>HISTÓRIA</MenuItens>
-                <MenuItens>CARREIRA</MenuItens>
-                <MenuItens>CONTATO</MenuItens>
+                <MenuItens><Link href="/">
+                            <a>HOME</a>
+                        </Link></MenuItens>
+                <MenuItens><Link href="/carreira">
+                            <a>CARREIRA</a>
+                        </Link></MenuItens>
+                <MenuItens><Link href="/contato">
+                            <a>CONTATO</a>
+                        </Link></MenuItens>
             </Menu>
         </Container>
     );

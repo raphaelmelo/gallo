@@ -20,7 +20,7 @@ const Wrapper = styled.article`
         font-family: Barlow;
         font-style: normal;
         font-weight: 300;
-        font-size: 22px;
+        font-size: 18px;
         line-height: 29px;
         color: rgba(255, 255, 255, 0.87);
      }
@@ -43,7 +43,7 @@ p {
    font-family: Barlow;
    font-style: normal;
    font-weight: 300;
-   font-size: 22px;
+   font-size: 17px;
    line-height: 29px;
    color: rgba(255, 255, 255, 0.87);
    margin-bottom:40px;

@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components'
 import Home from '../components/PaginaCarreira/Home/Home'
+import Header from '../components/Header/index'
+import Footer from '../components/Footer/Footer'
 
 const Container = styled.section`
   font-size: 50px;
@@ -11,8 +13,13 @@ const Container = styled.section`
 
 export default function Carreira() {
   return (
+    <>
+    <Header/>
     <Container>
       <Home />
     </Container>
+    <Footer/>
+    </>
+
   );
 }

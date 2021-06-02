@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import Button from '@material-ui/core/Button';
-
+import Link from 'next/link'
 
 const Wrapper = styled.article`
     height: 100%;
@@ -13,7 +13,7 @@ const Wrapper = styled.article`
 `
 
 const CardItem = styled.article`
-     width: 400px;
+    width: 400px;
     height: 50%;
     
 
@@ -28,7 +28,7 @@ const CardItem = styled.article`
         font-family: Barlow;
         font-style: normal;
         font-weight: 300;
-        font-size: 22px;
+        font-size: 17px;
         line-height: 29px;
         color: rgba(255, 255, 255, 0.87);
         margin-bottom:40px;
@@ -52,12 +52,14 @@ export default function Texto() {
         <Wrapper>
 
             <CardItem>
-                <h2>Contato</h2>
+                <h2>Palestras</h2>
                 <p>
                 Adquiriu vasta experiência em relacionamentos pessoais e interpessoais com objetivos de Conquista em curto prazo, representando, muitas vezes, uma enorme torcida ou nação que busca Vitória a qualquer preço. Por isso, Alexandre Gallo é muito requisitado para ministrar Palestras.
                  </p>
                 <Button variant="outlined" color="secondary">
-                    Continuar lendo
+                <Link href="/contato">
+                            <a>Continuar lendo</a>
+                        </Link>
                 </Button>
             </CardItem>
 

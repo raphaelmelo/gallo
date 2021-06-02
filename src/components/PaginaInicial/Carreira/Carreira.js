@@ -38,7 +38,7 @@ const TextWrapper = styled.article`
 const ImageWrapper = styled.article`
     background-image: url('https://res.cloudinary.com/gallo/image/upload/v1616962592/Carreira_bw_1_p8m2vk.png');
     background-repeat:no-repeat;
-    background-position: cover;
+    background-position: 25% 5%;
     width:50%;
     min-height:100vh;
     

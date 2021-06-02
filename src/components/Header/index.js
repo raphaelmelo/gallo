@@ -48,7 +48,7 @@ const NavItem = Styled.li`
 
 `
 
-const Tradution = Styled.article`
+const Languages = Styled.article`
     display:flex;
     gap:10px;   
 
@@ -79,17 +79,12 @@ export default function Index() {
                                 <NavItem>Home</NavItem>
                             </a>
                         </Link>
-                        <Link href="/Historia">
-                            <a>
-                                <NavItem>História</NavItem>
-                            </a>
-                        </Link>
-                        <Link href="/Carreira">
+                        <Link href="/carreira">
                             <a>
                                 <NavItem>Carreira</NavItem>
                             </a>
                         </Link>
-                        <Link href="/palestra">
+                        <Link href="/contato">
                             <a>
                                 <NavItem>Contato</NavItem>
                             </a>
@@ -97,14 +92,14 @@ export default function Index() {
                     </NavList>
                     <NavMobile />
                 </nav>
-                <Tradution>
+                <Languages>
                     <Link href="/">
                         <NavItem>PT</NavItem>
                     </Link>
                     <Link href="/">
                         <NavItem>EN</NavItem>
                     </Link>
-                </Tradution>
+                </Languages>
             </WrapperNav>
         </HeaderStyled>
 

@@ -22,7 +22,7 @@ const WrapperText = styled.article`
 
     h1 { 
         font-family: Qwigley;
-        font-size: clamp(20px, 40vw, 300px); 
+        font-size: clamp(20px, 40vw, 220px); 
 
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 

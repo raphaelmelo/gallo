@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Button from '@material-ui/core/Button';
+import Link from 'next/link'
 
 
 const Card = styled.article`
@@ -17,7 +18,7 @@ const Card = styled.article`
         font-family: Barlow;
         font-style: normal;
         font-weight: 300;
-        font-size: 22px;
+        font-size: 17px;
         line-height: 29px;
         color: rgba(255, 255, 255, 0.87);
         margin-bottom:40px;
@@ -44,7 +45,9 @@ export default function Texto() {
             Seu primeiro trabalho depois de pendurar as chuteiras foi como estagiário de Carlos Alberto Parreira no Corinthians em 2002. Ele também foi assistente técnico de Dario Pereyra no Grêmio em 2003. O primeiro time treinado por Alexandre Gallo foi Villa Nova-MG em 2004. em 2004, Alexandre Gallo ocuparia por último o cargo de assistente técnico, trabalhando junto com Wanderley Luxemburgo em Santos, em 2004, tornando-se campeão brasileiro. 
                 </p>
             <Button variant="outlined" color="secondary">
-                Continuar Lendo
+            <Link href="/carreira">
+                            <a>Continuar Lendo</a>
+                        </Link>
                 </Button>
         </Card>
 

@@ -83,15 +83,8 @@ export default function Header() {
                                     </ItemMenuStyled>
                                 </Link>
                                 <Divider />
-                                <Divider />
-                                <Link href="/Historia">
-                                    <ItemMenuStyled button>
-                                        <ListItemText primary={"História"} />
-                                    </ItemMenuStyled>
-                                </Link>
-                                <Divider />
 
-                                <Link href="/Carreira">
+                                <Link href="/carreira">
                                     <ItemMenuStyled button>
                                         <ListItemText primary={"Carreira"} />
                                     </ItemMenuStyled>
