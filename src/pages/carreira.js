@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Home from '../components/PaginaCarreira/Home/Home'
 import Header from '../components/Header/index'
 import Footer from '../components/Footer/Footer'
+import Times from '../components/PaginaCarreira/CarreiraJogador/Times'
 
 const Container = styled.section`
   font-size: 50px;
@@ -17,6 +18,7 @@ export default function Carreira() {
       <Header />
       <Container>
         <Home />
+        <Times />
       </Container>
       <Footer />
     </>

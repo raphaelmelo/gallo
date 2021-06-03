@@ -54,7 +54,7 @@ export default function Title() {
             <WrapperText>
                 <h1>Alexandre <br/> Gallo</h1>
                 
-                <h3>Treinador e ex-jogador de futebol</h3>
+                <h3>A história do treinador e ex-jogador de futebol</h3>
             </WrapperText>
         </Container>
     );

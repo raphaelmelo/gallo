@@ -4,7 +4,7 @@ import Title from './Title.js'
 const Container = styled.section`
     height:100vh;
     width:100%;
-    background-image: url('https://res.cloudinary.com/gallo/image/upload/v1617060773/Gallo01_e1xyjw.png');
+    background-image: url('https://res.cloudinary.com/gallo/image/upload/v1622682396/Untitled-2_3_wmydfx.png');
     background-size:cover;
     background-repeat:no-repeat;
     background-position: 100%;

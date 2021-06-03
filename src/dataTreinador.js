@@ -1,4 +1,4 @@
-export const dataTreinador = [
+export const DataTreinador = [
     {
         time: "Corinthians/SP",
         ano: "2002",
