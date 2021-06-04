@@ -8,6 +8,7 @@ const Container = styled.section`
     align-items:center;
     justify-content:center;
     flex-direction:row;
+    background-color:#020202;
 
 `
 

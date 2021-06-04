@@ -3,13 +3,15 @@ import styled from 'styled-components'
 import Home from '../components/PaginaCarreira/Home/Home'
 import Header from '../components/Header/index'
 import Footer from '../components/Footer/Footer'
-import Times from '../components/PaginaCarreira/CarreiraJogador/Times'
+import TimesCarreiraJogador from '../components/PaginaCarreira/CarreiraJogador/Times'
+import TimesCarreiraTreinador from '../components/PaginaCarreira/CarreiraTreinador/Times'
+import Imagem from '../components/PaginaCarreira/CarreiraJogador/Imagem'
 
 const Container = styled.section`
   font-size: 50px;
   background: #262626;
   width:100%;
-  min-height:100vh;
+  height:100%;
 `
 
 export default function Carreira() {
@@ -18,7 +20,9 @@ export default function Carreira() {
       <Header />
       <Container>
         <Home />
-        <Times />
+        <TimesCarreiraJogador />
+        <Imagem/>
+        <TimesCarreiraTreinador />
       </Container>
       <Footer />
     </>
