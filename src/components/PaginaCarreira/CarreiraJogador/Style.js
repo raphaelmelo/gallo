@@ -4,6 +4,7 @@ import styled from 'styled-components'
 export const Container = styled.section`
     padding:0 10vw;
     background-color: #020202;
+    min-height: 90vh;
 `
 export const Titulo = styled.article`
     width: 100%;

@@ -25,8 +25,7 @@ const TextWrapper = styled.article`
     justify-content:center;
  
     @media only screen and (max-width: 1025px) {
-        width:50%;
-        justify-content:flex-start;
+        width:100%;
         margin-left:1.5%
         
 

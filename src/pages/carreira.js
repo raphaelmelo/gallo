@@ -5,7 +5,9 @@ import Header from '../components/Header/index'
 import Footer from '../components/Footer/Footer'
 import TimesCarreiraJogador from '../components/PaginaCarreira/CarreiraJogador/Times'
 import TimesCarreiraTreinador from '../components/PaginaCarreira/CarreiraTreinador/Times'
-import Imagem from '../components/PaginaCarreira/CarreiraJogador/Imagem'
+import ImagemCarreira from '../components/PaginaCarreira/CarreiraJogador/Imagem'
+import Informacoes from '../components/PaginaCarreira/Home/Informacoes'
+import ImagemJogador from '../components/PaginaCarreira/Home/ImagemJogador'
 
 const Container = styled.section`
   font-size: 50px;
@@ -20,8 +22,10 @@ export default function Carreira() {
       <Header />
       <Container>
         <Home />
+        <Informacoes />
+        <ImagemJogador/>
         <TimesCarreiraJogador />
-        <Imagem/>
+        <ImagemCarreira/>
         <TimesCarreiraTreinador />
       </Container>
       <Footer />

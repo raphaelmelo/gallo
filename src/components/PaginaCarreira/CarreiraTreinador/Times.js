@@ -23,9 +23,11 @@ const CarreiraWrapper = styled.section`
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+
     flex-wrap: wrap;
     justify-content: space-around;
+    align-content: flex-start;
+
 `
 
 
@@ -34,7 +36,11 @@ const CardTime = styled.article`
     height:180px;
     display:flex;
     flex-direction:row;
-    margin-top: 20px;
+    margin-top: 35px;
+
+    @media only screen and (max-width: 767px) {
+        width: 100%;
+    }
 
 `
 
@@ -73,18 +79,21 @@ h3 {
     font-size:18px;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
+    color: #ffffff80;
 
 }
 h4 {
     font-size:18px;
-    color: #FFFFFF;
     font-family: 'Bebas Neue', cursive;
-    
+    color: #BEBEBE;
+
 }
 p {
     font-size:14px;
     font-family: 'Bebas Neue', cursive;
-    
+    color: #BEBEBE;
+
+
 }
 
 `
@@ -140,7 +149,7 @@ const Content = DataTreinador.map((item) => (
               
                 <h3>{item.Trofeu1}<br/>{item.Trofeu2}<br/>{item.Trofeu3}<br/>{item.Trofeu4}</h3>
                
-                <h4>{item.Jogos}{item.Vitorias}{item.Empates}{item.Derrotas}</h4>
+                <h4>{item.Jogos} {item.Vitorias} {item.Empates} {item.Derrotas}</h4>
 
                 <p>{item.Amistosos}</p>
 

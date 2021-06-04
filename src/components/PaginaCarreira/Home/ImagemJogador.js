@@ -14,7 +14,7 @@ width:100%;
 export default function Imagem() {
     return (
             <ImagemWrapper>
-            <ImagemGallo src="https://res.cloudinary.com/gallo/image/upload/v1622845054/image_6_htk6wg.png" alt="Gallo Jovem"/>
+            <ImagemGallo src="https://res.cloudinary.com/gallo/image/upload/v1622762115/image_12_uczjai.png" alt="Gallo Jovem"/>
             </ImagemWrapper>
     );
 }
