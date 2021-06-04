@@ -20,7 +20,7 @@ const ImagemTopo = styled.img`
   height: 50%;
 `
 const ParceriosBG = styled.article`
-  background-color: #111216;
+  background-color: #080808;
   display: flex;
   align-items: center;
   justify-content: center;

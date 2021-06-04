@@ -404,6 +404,7 @@ export const DataTreinador = [
         Escudo: "https://res.cloudinary.com/gallo/image/upload/v1617040842/BotafogoFCRB_szwvxw.png",
         Amistosos: "",
     },
+    
 ]
 
     

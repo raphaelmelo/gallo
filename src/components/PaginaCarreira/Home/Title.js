@@ -10,14 +10,12 @@ const Container = styled.section`
   text-align:justify;
 
 
-  
-
 `
 const TitleH1 = styled.h1`
     color: #6CB2DA;
     font-family: Bebas Neue;
     font-size: 100px;
-  
+
   
 `
 const Description = styled.p`
